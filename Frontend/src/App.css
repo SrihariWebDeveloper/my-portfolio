@@ -1,8 +1,0 @@
-.app{
-    margin: auto 80px;
-}
-@media (max-width:700px) {
-    .app{
-        margin: auto 15px;
-    }
-}

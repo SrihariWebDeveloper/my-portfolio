@@ -1,22 +1,16 @@
 import React from 'react'
-import '../About/About.css'
 
 const About = () => {
   return (
-    <div className='about'>
-      <div className="heading">
-        <h2>About Me.</h2>
+    <section className="bg-[#f8fbff] px-5 py-10">
+      <div className="mx-auto max-w-4xl rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="text-2xl font-extrabold text-slate-950">About Me</h2>
+        <p className="mt-4 text-sm leading-7 text-slate-600">
+          I am a Computer Science student with a strong foundation in programming,
+          full stack development, data structures, algorithms, and AI-focused problem solving.
+        </p>
       </div>
-      <div className="info">
-        <h5>
-            As a B.Tech/BE Student in Computer Science, 
-            I Possess a Strong Foundation in Programing,
-            Development,Data Struchers and Algorithams etc.. 
-            My Expertices include Proficiency in Full-Stack Development and Frontend Development.
-            My Genuines love for AI adds an Extra Layer of Excitement to my TECH Journey..
-        </h5>
-      </div>
-    </div>
+    </section>
   )
 }
 

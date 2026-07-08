@@ -1,17 +1,17 @@
-import tswreisLogo from '../assets/images/Tswreis.jpg'
-import jntuLogo from '../assets/images/Jntuh.jpg'
-import medical from '../assets/images/Medical.jpg'
-import library from '../assets/images/Library.jpg'
-import youtube from '../assets/images/Youtube.jpg'
-import quiz from '../assets/images/Quiz.jpg'
-import ecommerce from '../assets/images/E-commerce.png'
-import chatgpt from '../assets/images/Chatgpt.jpg'
-import todoapp from '../assets/images/Todo.png'
-import aiplay from '../assets/images/AIatore.png'
-import taxcal from '../assets/images/Tax.png'
-import portfolio from '../assets/images/Portfolio.jpg'
-import chai from '../assets/images/Teashop.png';
-import air from '../assets/images/Air.jpeg';
+import tswreisLogo from './Tswreis.jpg'
+import jntuLogo from './Jntuh.jpg'
+import medical from './Medical.jpg'
+import library from './Library.jpg'
+import youtube from './Youtube.jpg'
+import quiz from './Quiz.jpg'
+import ecommerce from './E-commerce.png'
+import chatgpt from './Chatgpt.jpg'
+import todoapp from './Todo.png'
+import aiplay from './AIatore.png'
+import taxcal from './Tax.png'
+import portfolio from './Portfolio.jpg'
+import chai from './Teashop.png';
+import air from './Air.jpeg';
 
 export const skills = [
   "HTML5", 

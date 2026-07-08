@@ -1,5 +1,5 @@
 import React from 'react'
-import MyImage from '../../assets/my-image.jpg'
+import MyImage from '../../assets/user.jpg'
 import Footer from '../Footer/Footer.jsx'
 import Project from '../Projects/Project.jsx'
 import Reveal from '../Reveal.jsx'

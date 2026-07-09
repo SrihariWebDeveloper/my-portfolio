@@ -49,19 +49,19 @@ const Connect = () => {
                 <span className="grid h-10 w-10 place-items-center rounded-md bg-blue-50 text-blue-600">
                   <i className="bi bi-envelope-fill" />
                 </span>
-                sriharierukala@gmail.com
+                sriharidev07@gmail.com
               </a>
               <a href="tel:+918121647190" className="flex items-center gap-3 rounded-lg bg-slate-50 p-4 text-sm font-semibold text-slate-700 hover:text-blue-600">
                 <span className="grid h-10 w-10 place-items-center rounded-md bg-blue-50 text-blue-600">
                   <i className="bi bi-telephone-fill" />
                 </span>
-                +91 81216 47190
+                +91 99081 80521
               </a>
               <div className="flex items-center gap-3 rounded-lg bg-slate-50 p-4 text-sm font-semibold text-slate-700">
                 <span className="grid h-10 w-10 place-items-center rounded-md bg-blue-50 text-blue-600">
                   <i className="bi bi-geo-alt-fill" />
                 </span>
-                Wanaparthy, Telangana, India
+              Peddapalli , Telangana, India
               </div>
             </div>
           </Reveal>

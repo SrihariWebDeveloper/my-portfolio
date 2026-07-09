@@ -8,7 +8,6 @@ import Skills from '../Skils/Skills.jsx'
 const socialLinks = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/erukala-srihari-675a42285/', icon: 'bi-linkedin' },
   { label: 'GitHub', href: 'https://github.com/SrihariWebDeveloper', icon: 'bi-github' },
-  { label: 'Discord', href: 'https://discord.gg/JrHmCCG', icon: 'bi-discord' },
   { label: 'Instagram', href: 'https://www.instagram.com/srihariwebdeveloper__17', icon: 'bi-instagram' },
   { label: 'YouTube', href: 'https://www.youtube.com/@SrihariWebDeveloper', icon: 'bi-youtube' },
 ]
@@ -25,17 +24,16 @@ const Home = () => {
           <Reveal direction="right" className="w-full">
             <p className="text-sm font-medium text-slate-600">Hello 👋, I'm</p>
             <h1 className="mt-1 text-5xl font-extrabold leading-none tracking-normal text-slate-950 sm:text-6xl">
-              Srihari <span className="text-blue-600">Erukala</span>
+               Erukala <span className="text-blue-600">Srihari</span>
             </h1>
             <p className="mt-3 text-lg font-semibold text-slate-700">
               Computer Science & Engineering <span className="text-blue-600">(AI/ML)</span> Student
             </p>
             <p className="mt-4 max-w-2xl text-[15px] leading-7 text-slate-600">
-              Passionate frontend developer and full stack enthusiast who loves building responsive,
-              user-friendly web applications and turning ideas into real-world solutions.
+              Building scalable web applications with the MERN Stack while exploring AI, cloud technologies, and modern software engineering to create meaningful digital experiences.
             </p>
             <p className="mt-4 text-sm font-semibold text-slate-700">
-              <span className="text-blue-600">Frontend Developer</span> | Full Stack Developer | UI Designer | Video & Photo Editor
+              <span className="text-blue-600">Full-Stack Developer</span> | React.js Developer | AI Enthusiast
             </p>
             <p className="mt-3 flex items-center gap-2 text-sm text-slate-600">
               <i className="bi bi-geo-alt-fill text-blue-600" />
@@ -61,7 +59,7 @@ const Home = () => {
               <a href="#projects" className="rounded-md bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-sm shadow-blue-200 transition hover:bg-blue-700">
                 View My Work <i className="bi bi-arrow-right-short ml-1" />
               </a>
-              <a href="#" className="rounded-md border border-blue-300 bg-white px-6 py-3 text-sm font-semibold text-blue-600 transition hover:border-blue-500 hover:bg-blue-50">
+              <a href="https://drive.google.com/file/d/1STsPey4FAPczSzENGTFaTiM6U8WJUs7x/view?usp=drive_link" className="rounded-md border border-blue-300 bg-white px-6 py-3 text-sm font-semibold text-blue-600 transition hover:border-blue-500 hover:bg-blue-50">
                 Download Resume <i className="bi bi-download ml-1" />
               </a>
             </div>

@@ -8,7 +8,7 @@ import Skills from '../Skils/Skills.jsx'
 const socialLinks = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/erukala-srihari-675a42285/', icon: 'bi-linkedin' },
   { label: 'GitHub', href: 'https://github.com/SrihariWebDeveloper', icon: 'bi-github' },
-  { label: 'Instagram', href: 'https://www.instagram.com/srihariwebdeveloper__17', icon: 'bi-instagram' },
+  { label: 'Instagram', href: 'https://www.instagram.com/sri.haryyy_07', icon: 'bi-instagram' },
   { label: 'YouTube', href: 'https://www.youtube.com/@SrihariWebDeveloper', icon: 'bi-youtube' },
 ]
 

@@ -34,7 +34,7 @@ const ProjectsPage = () => {
 
                   <div className="flex min-h-0 flex-1 flex-col p-5">
                     <h2 className="line-clamp-1 text-lg font-extrabold text-slate-950">{project.title}</h2>
-                    <p className="mt-3 line-clamp-3 min-h-[72px] text-sm leading-6 text-slate-500">{project.discreption}</p>
+                    <p className="mt-3 line-clamp-3 min-h-[72px] text-sm leading-6 text-slate-500">{project.description}</p>
 
                     <div className="mt-4 flex min-h-[64px] flex-wrap content-start gap-2 overflow-hidden">
                       {project.tools.slice(0, 6).map((tool) => (
@@ -45,9 +45,9 @@ const ProjectsPage = () => {
                     </div>
 
                     <div className="mt-auto grid grid-cols-2 gap-3 pt-5">
-                      {project.webiste ? (
+                      {project.website ? (
                         <a
-                          href={project.webiste}
+                          href={project.website}
                           target="_blank"
                           rel="noreferrer"
                           className="inline-flex h-11 items-center justify-center rounded-md bg-blue-600 px-4 text-sm font-bold text-white transition hover:bg-blue-700"

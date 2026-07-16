@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import { projects } from '../../assets/main.js'
 import Reveal from '../Reveal.jsx'
 
-const featuredTitles = ['Medical Store', 'AI PLAY STORE', 'E-commerce website', 'ChaT-GPT Clone']
+const featuredTitles = ['AnalytIQ - AI Powered Data Analysis Platform',
+  'ShopWave - Full Stack E-Commerce Platform', 'Full Stack - Secure Authentication System', 'Learning Management System (LMS)']
 
 const Project = () => {
   const featuredProjects = featuredTitles
@@ -35,7 +36,7 @@ const Project = () => {
 
               <div className="p-4">
                 <h3 className="text-sm font-extrabold text-slate-900">{project.title}</h3>
-                <p className="mt-2 line-clamp-2 text-xs leading-5 text-slate-500">{project.discreption}</p>
+                <p className="mt-2 line-clamp-2 text-xs leading-5 text-slate-500">{project.description}</p>
 
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {project.tools.slice(0, 3).map((tool) => (
@@ -46,7 +47,7 @@ const Project = () => {
                 </div>
 
                 <div className="mt-4 flex items-center justify-between text-xs font-bold">
-                  <a href={project.webiste || project.github || '#'} target="_blank" rel="noreferrer" className="text-blue-600 hover:text-blue-700">
+                  <a href={project.website || project.github || '#'} target="_blank" rel="noreferrer" className="text-blue-600 hover:text-blue-700">
                     Live Demo <i className="bi bi-arrow-up-right ml-1" />
                   </a>
                   <a href={project.github || project.webiste || '#'} target="_blank" rel="noreferrer" className="text-blue-600 hover:text-blue-700">
